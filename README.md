@@ -1,16 +1,49 @@
-# animated_todo_app
 
-A new Flutter project.
+# Animated Todo App
+
+A beautiful and animated Todo application built with Flutter. This app demonstrates state management using Bloc, custom models, and smooth UI transitions for managing your daily tasks.
+
+## Features
+- Add, edit, and delete todos
+- Animated transitions for task management
+- Bloc pattern for state management
+- Responsive design for mobile and web
+- Persistent storage (if implemented)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
+1. Clone the repository:
+	```sh
+	git clone https://github.com/your-username/animated_todo_app.git
+	```
+2. Navigate to the project directory:
+	```sh
+	cd animated_todo_app
+	```
+3. Get dependencies:
+	```sh
+	flutter pub get
+	```
+4. Run the app:
+	```sh
+	flutter run
+	```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Project Structure
+```
+lib/
+  main.dart
+  Bloc/
+  models/
+  views/
+```
+- `main.dart`: Entry point of the app
+- `Bloc/`: State management files
+- `models/`: Data models
+- `views/`: UI screens
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
